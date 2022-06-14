@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+.navigation {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 30px 10px;
+  width: 100%;
+}
+.navigation ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+.navigation ul li a {
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  font-size: 16px;
+}
+.navigation ul li a:hover {
+  color: #fff;
+}
+.logo {
+  font-size: 1.7rem;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}

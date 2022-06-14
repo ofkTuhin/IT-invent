@@ -1,0 +1,9 @@
+{
+  "parameters": {
+    "logo": "INVENT",
+    "title": "invent it solution",
+    "description": "Inven It template",
+    "numper_of_post": 6,
+    "pagination": 9
+  }
+}

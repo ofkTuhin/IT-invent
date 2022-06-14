@@ -1,0 +1,28 @@
+{
+  "header": [
+    {
+      "name": "home",
+      "link": "/"
+    },
+    {
+      "name": "technology",
+      "link": "/technology"
+    },
+    {
+      "name": "about",
+      "link": "/about"
+    },
+    {
+      "name": "career",
+      "link": "/career"
+    },
+    {
+      "name": "blog",
+      "link": "/blog"
+    },
+    {
+      "name": "contact",
+      "link": "/contact"
+    }
+  ]
+}
