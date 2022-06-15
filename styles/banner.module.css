@@ -7,6 +7,7 @@
   min-height: 600px;
 }
 .banner::before {
+  content: "";
   position: absolute;
   width: 100%;
   background-color: #000;
@@ -15,6 +16,7 @@
   left: 0;
   right: 0;
   opacity: 0.5;
+  height: 100%;
 }
 .banner .container {
   height: 100%;
@@ -28,4 +30,6 @@
 }
 .bannerContent {
   width: 58.33%;
+  color: #fff;
+  z-index: 99999;
 }
