@@ -1,19 +1,21 @@
+import Banner from "components/Banner";
 import Layout from "components/Layout";
-import { getRegulerPageData } from "liv/md_read";
+import { getSingleFileData } from "liv/md_read";
 
-export default function Home() {
+export default function Home({ indexPageData: { frontmatter, content } }) {
   return (
     <Layout>
-      <div className=""></div>
+      <Banner frontmatter={frontmatter} content={content} />
     </Layout>
   );
 }
 
 export const getStaticProps = () => {
-  const data = getRegulerPageData();
+  const indexPageData = getSingleFileData("content/_index.md");
+
   return {
     props: {
-      post: "posts",
+      indexPageData: indexPageData,
     },
   };
 };

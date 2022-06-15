@@ -1,6 +1,8 @@
 .header {
   position: absolute;
   width: 100%;
+  z-index: 19999;
+  font-weight: 600;
 }
 .navigation {
   display: flex;
@@ -18,7 +20,7 @@
 .navigation ul li a {
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
 }
 .navigation ul li a:hover {
@@ -28,4 +30,6 @@
   font-size: 1.7rem;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  color: #fff;
 }
